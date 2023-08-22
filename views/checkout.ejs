@@ -1,0 +1,34 @@
+<!-- <html>
+  <head>
+    <title>Buy cool new product</title>
+  </head>
+  <body> -->
+    <!-- Use action="/create-checkout-session.php" if your server is PHP based. -->
+    <!-- <form action="/api/v1/order/create-checkout-session" method="POST">
+      <script
+		  src="//checkout.stripe.com/v2/checkout.js"
+		  class="stripe-button"
+		  data-key="<%= key %>"
+      data-amount =""
+		  data-currency="usd">
+		</script>
+    </form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  </head>
+
+  <body>
+    <h1>Email Verification</h1>
+    <p>
+      Thank you! Your order <b><%= order %></b> completed successfully!
+    </p>
+    <p>If you did not register for an account, please ignore this email.</p>
+    <%- include('./partials/footer.ejs'); %>
+  </body>
+
+</html>

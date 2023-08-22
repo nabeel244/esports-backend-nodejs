@@ -1,0 +1,13 @@
+public/users
+public/blogs
+public/products
+public/
+public/vids
+public/
+node_modules
+*.yaml
+.env
+.png
+.jpeg
+.jpg
+.env.example
